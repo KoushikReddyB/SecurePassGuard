@@ -27,7 +27,7 @@ SecurePassGuard is a Python tool for generating strong passwords and checking pa
 3. Install the colorama:
 
    ```
-   colorama
+   pip install colorama
    ```
 
 4. Run the main script:
