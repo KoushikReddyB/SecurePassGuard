@@ -105,7 +105,7 @@ class SecurePassGuard:
             "password1234567890qazwsx!@#123456789", "password1234567890qwe123!@#123456789",
             "password1234567890qwe!@#1234567890", "password1234567890qweasd!@#1234567890",
             "password1234567890qazwsx!@#1234567890", "password1234567890qwe123!@#1234567890"
-        }
+        } # And this can be extendable
 
     def length_check(self, password):
         return len(password) >= 4
@@ -240,7 +240,7 @@ def main():
             print(spg.password_strength(password))
         
         elif choice == '3':
-            print("Exiting SecurePassGuard. Goodbye!")
+            print("Exiting SecurePassGuard. Goodbye!. Developed by KoushikReddyB")
             break
         
         else:
