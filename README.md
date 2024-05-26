@@ -1,7 +1,3 @@
-Sure, here's a basic README file for your SecurePassGuard tool:
-
----
-
 # SecurePassGuard
 
 SecurePassGuard is a Python tool for generating strong passwords and checking password strength. It provides functionality to generate random passwords of custom length with various character types and also evaluates the strength of a given password based on multiple criteria.
